@@ -1,0 +1,118 @@
+body {
+    background-color: #21212E;
+}
+
+a {
+    
+    text-decoration: none;
+    color: #66667E;
+    text-shadow: 4px 4px 10px black;
+}
+.nav-link{
+    border: 5px white;
+    border-radius: 5px;  
+}
+.nav-link:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    background: none;
+    color: white;
+
+}
+
+.main-btn {
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #5CC4F2, #BD11FA);
+    box-shadow: 1px 1px 10px #8c10b9;
+}
+
+.main-btn:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 20px #7e11fa;
+    color: white;
+    opacity: 90%;
+    transform: scale(1.02);
+}
+
+.start-btn:hover {
+    transition: 0.4s;
+    transform: scale(1.04);
+    opacity: 60%;
+}
+
+
+.card-c3 {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.721);
+    background-color:#21212E;
+}
+
+.cardh-c3 {
+    background-color:#2a2a3a;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    background-color:#21212E;
+    box-shadow: 4px 4px 15px black;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 90%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+    background-color: rgb(24, 24, 24);
+    transition: 0.4s;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    color: rgb(167, 165, 165);
+    padding: 0 18px;
+    background-color:#21212E;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 90%;
+}
+
+.collapsible:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #00EC98;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(muli.regular.ttf);
+  }
+  
+*  {
+    font-family: myFirstFont;
+  }
+
+.card-trancparent:hover{
+    transition: 0.4s;
+    transform: scale(1.05);
+}
